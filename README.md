@@ -27,7 +27,6 @@ These properties are applied to option groups, buttons, and the main container t
 4.	Observe how the layout and selections are visually aligned using Flexbox.
 
 Resources to Learn Flexbox
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
-https://www.youtube.com/watch?v=GteJWhCikCk 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-•	Flexbox Froggy – Interactive Game
+https://www.youtube.com/watch?v=GteJWhCikCk 

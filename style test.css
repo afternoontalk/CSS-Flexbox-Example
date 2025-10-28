@@ -1,0 +1,138 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(160deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  height: 100;
+
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+
+}
+
+.planet-container {
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  width: 90%;
+  max-width: 1000px; Optional: keeps it from getting too wide*/
+
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2em;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #ff0;
+}
+
+.selectors {
+  /*display: flex;
+  justify-content: space-around;  
+  flex-wrap: wrap;               
+  gap: 0.5em;                  
+  width: 100%;*/
+}
+
+
+.option-group /*  Each option group (Character, Weather, etc.)  */{
+  background: rgba(255, 255, 255, 0.1);
+  /*padding: 1em;
+  border-radius: 15px;
+  flex: 1 1 200px; grows/shrinks with a base width of 200px
+  text-align: center;*/
+}
+
+
+.options /*  Flex layout for individual options inside each group  */{
+  /*display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  flex-wrap: wrap;*/
+}
+
+
+.option /*  Individual option buttons  */{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.option:hover {
+  background: #ffb6b9;
+}
+
+.option.selected {
+  background: #ffd166;
+  color: #000;
+}
+
+
+
+
+.planet-display {
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1; Take remaining vertical space */
+}
+
+.planet {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+  transition: transform 0.8s ease; /* Smooth rotation animation */
+}
+
+/* Background variations (based on selected style) */
+body.pastel {
+  background: linear-gradient(160deg, #fcefee, #f8d5d1, #f7cad0);
+}
+body.cyber {
+  background: radial-gradient(circle at center, #0ff, #00111a);
+}
+body.minimal {
+  background: linear-gradient(160deg, #ddd, #999);
+}
+
+
+#Btn {
+  margin-top: 1em;
+  padding: 0.6em 1.2em;
+  border-radius: 10px;
+  border: none;
+  background: #ff6b81;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  transition: transform 0.2s;
+}
+
+#Btn:hover {
+  background: #ff4757;
+  transform: scale(1.05);
+}
+
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 0.8;
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer p {
+  margin: 0;
+  transition: opacity 0.3s ease-in-out;
+}
